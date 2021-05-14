@@ -12,5 +12,5 @@ Having a trained model and test data in the model folder, we can make a predicti
 
 #### RUN DOCKER:
 ```
-docker run -v /local/route/model:/app/model boston-price
+docker run -v "$(pwd)"/model:/app/model boston-price
 ```
